@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+  
   <body>
     <style>
-    .parent{border: dotted pink 2px; margin: 20px; padding: 20px; text-align: center; align-items: center;}
-    .child{border: dotted pink 1px; margin: 20px; padding: 20px; text-align: center; 
-       display: flex; align-items: center; gap: 20px;
-      background: radial-gradient(circle at 50% 50%, #ffdf4233, #ffd23333, #ffc42233, #ffb60e33, #ffa80033, #ff990033, #ff890033, #ff790033, #ff680033, #ff560033, #ff400133, #ff221233);}
+    .name{margin: 20px auto; padding: 20px; text-align: center;}
+    .child{margin: 20px auto; padding: 20px; text-align: center; 
+       display: flex; align-items: center;
+      background: radial-gradient(circle at 50% 50%, #ffdf4233, #ffd23333, #ffc42233, #ffb60e33, #ffa80033, #ff990033, #ff890033, #ff790033, #ff680033, #ff560033, #ff400133, #ff221233);border-radius: 1000px;padding: 5px;padding-right: 70px;box-shadow: 4px 4px 10px 0px #4d1e0580}
     html {min-height: 100%;}
     body { font-family: "Georgia";
     min-height: 100%;
@@ -17,25 +20,25 @@
     padding-bottom: 40px;
     background: radial-gradient(circle at 50% 50%, #ffdf4280, #ffc83b80, #ffb03480, #ff972d80, #ff7c2780, #ff5f2080, #ff411980, #ff221280);
   }
-  .main-container {max-width: 640px; margin: auto;}
+  body{font-family: 'Raleway', sans-serif;font-size: 44px; font-family: 'Open Sans', sans-serif; font-size: 18px;}
+  .main-container {max-width: 550px;  margin: auto;  padding-left: 15px;  padding-right: 15px;}
   .avatar-image{width:128px; height:128px; object-fit: cover; border-radius: 128px;}
   .thumbnail {width: 75px;  height: 75px;  border-radius: 65px;  object-fit: cover;}
   .image-row{magin-bottom:20px;}
-  .name-row{margin-bottom:30px}
+  .name-row{ margin-bottom: 30px;  text-align: center;  font-family: "Raleway";  font-size: 24px;  font-weight: 900;}
   .item{margin-bottom: 30px;}
-  .link-text {text-align: center; flex-grow: 1;}
+  .link-text {text-align: center; flex-grow: 1; font-family: "Open Sans", font-size: 24px;}
   a {text-decoration: none;}
     </style>
 
-    <div class="parent">
-      <div class="child">
-        <img class="avatar-image" src="/Images/profile-pic.jpg" alt="Pinky Lola pic" 
-      </div>
+<div class="main-container">
+    <div class="name">
+        <img class="avatar-image" src="/Images/profile-pic.jpg" alt="Pinky Lola pic">
       <div class="name-row">
       Galia Stolkin
     </div>
       </div>
-      
+       
       <div class="child"> 
         <img class="thumbnail" src="/Images/pinku1.jpg" alt="Pinky pic">  
         <a class="link-text" href="https://www.linkedin.com/in/galia-stolkin-10245b196/" target="_blank">
@@ -65,6 +68,6 @@
         <a class="link-text" href="https://maps.app.goo.gl/ALYfxqQRVG64Bz1y5" target="_blank">
         <span class="link-text">Google Maps</span>
       </a> </div>
-
+</div>
   </body>
 </html>
