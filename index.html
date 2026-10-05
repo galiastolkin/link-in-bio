@@ -2,11 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <style>
-    .parent{border: dotted pink 2px; margin: 20px; padding: 20px;}
-    .child{border: dotted pink 1px; margin: 20px; padding: 20px; background: radial-gradient(circle at 50% 50%, #ffdf4233, #ffd23333, #ffc42233, #ffb60e33, #ffa80033, #ff990033, #ff890033, #ff790033, #ff680033, #ff560033, #ff400133, #ff221233);}
+    .parent{border: dotted pink 2px; margin: 20px; padding: 20px; text-align: center; align-items: center;}
+    .child{border: dotted pink 1px; margin: 20px; padding: 20px; text-align: center; 
+       display: flex; align-items: center; gap: 20px;
+      background: radial-gradient(circle at 50% 50%, #ffdf4233, #ffd23333, #ffc42233, #ffb60e33, #ffa80033, #ff990033, #ff890033, #ff790033, #ff680033, #ff560033, #ff400133, #ff221233);}
     html {min-height: 100%;}
     body {
     min-height: 100%;
@@ -17,6 +20,9 @@
   .main-container {max-width: 640px; margin: auto;}
   .avatar-image{width:128px; height:128px; object-fit: cover; border-radius: 128px;}
   .thumbnail {width: 75px;  height: 75px;  border-radius: 65px;  object-fit: cover;}
+  .image-row{magin-bottom:20px;}
+  .name-row{margin-bottom:30px}
+  .item{margin-bottom: 30px;}
     </style>
 
     <div class="parent">
@@ -30,25 +36,25 @@
       
       <div class="child"> 
         <img class="thumbnail" src="/Images/pinku1.jpg" alt="Pinky pic">  
-        <a href="https://www.linkedin.com/in/galia-stolkin-10245b196/" target="_blank">
+        <a class="link-text" href="https://www.linkedin.com/in/galia-stolkin-10245b196/" target="_blank">
         LinkedIn
       </a> </div>
 
       <div class="child"> 
         <img class="thumbnail" src="/Images/lolapinky0.jpg" alt="PinkyLola pic">  
-        <a href="https://www.instagram.com/galiastolkin?stkn=bG5oNHBsOXAxZ2Z4" target="_blank">
+        <a class="link-text" href="https://www.instagram.com/galiastolkin?stkn=bG5oNHBsOXAxZ2Z4" target="_blank">
         Instagram
       </a> </div> 
       
       <div class="child"> 
         <img class="thumbnail" src="/Images/pinku2.jpg" alt="Pinky pic"  >
-        <a href="https://open.spotify.com/user/galiastolkin13?si=VRgFAiuFRguKRze4g7SdlQ&utm_source=sms&nd=1&dlsi=b44f7f831c14436d" target="_blank">
+        <a class="link-text" href="https://open.spotify.com/user/galiastolkin13?si=VRgFAiuFRguKRze4g7SdlQ&utm_source=sms&nd=1&dlsi=b44f7f831c14436d" target="_blank">
         Spotify
       </a> </div>
 
       <div class="child"> 
         <img class="thumbnail" src="/Images/pinku3.jpg" alt="Pinky pic"  >
-        <a href="https://www.tanyamoss.com/?srsltid=AU7gw4UDzqrUpa463D-YqWA3iDbdHrFPAQbawGzxMlKNkncjklC7rBOO" target="_blank">
+        <a class="link-text" href="https://www.tanyamoss.com/?srsltid=AU7gw4UDzqrUpa463D-YqWA3iDbdHrFPAQbawGzxMlKNkncjklC7rBOO" target="_blank">
         Jewelry Store
       </a> </div>
 
